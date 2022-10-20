@@ -1,17 +1,42 @@
-Do końca roku, żeby cokolwiek było wystawione na Heroku. Ale możesz to sobie rozwijać ile tylko chcesz
+Instrukcje początkowe:
 
-Zaraz Ci dam początkowe instrukcje
+Do końca roku, żeby cokolwiek było wystawione na Heroku. 
 
-Na początek będziesz musiała stworzyć nowe repozytorium na Github. Możesz se je nazwać np ten Habit Tracker
+Na początek stworzyć nowe repozytorium na Github o nazwie Habit Tracker.
 
-Potem rozstawisz domyślną/początkową aplikację react, może dodasz tylko nagłówek z nazwą aplikacji.
+Rozstawić domyślną/początkową aplikację react, może dodasz tylko nagłówek z nazwą aplikacji.
 
-następnie wyślesz tę aplikację na Github, tak, żebym ja też mógł zobaczyć tę aplikację
+Wysłać tę aplikację na Github.
 
-następnie stworzysz aplikację na heroku i wyślesz tę aplikację też na heroku, żeby była już gdzieś hostowana na żywo
+Stworzć aplikację na heroku i wysłać ją też na heroku, żeby była już gdzieś hostowana na żywo.
 
-I to będzie koniec pierwszego etapu produkcji.
+Koniec pierwszego etapu produkcji- działający, w pełni funkcjonalny szablon aplikacji.
 
-Czyli działający, w pełni funkcjonalny szablon aplikacji
+Następny etapu produkcji, czyli programowanie funkcjonalności aplikacji, która ma śledzić postępy użytkownika..
 
-Dopiero następnie przejdziesz do drugiego etapu produkcji, czyli już faktycznie programowanie funkcjonalności aplikacji, która ma śledzić postępy użytkownika..
+Podsumowanie z 20.10.22r:
+
+1. Stworzyłaś repozytorium z gałęzią main
+
+2. Stworzyłaś gałąź develop
+
+3. Gałąź main to świętość.  W pracy nikt nie powinien bez autoryzacji wprowadzać zmian na tej gałęzi. Z tej gałęzi kod jest wypychany na produkcję
+
+4. By wprowadzić zmianę na gałęzi main, można z innej gałęzi (np develop) zrobić tzw. pull request. Czyli prosisz o przepchnięcie kodu z jednej gałęzi na drugą
+
+5. Każdy pull request powinien przejść recenzję. Czyli drugi programista sprawdza Twój kod, ocenia, prosi o poprawki i finalnie zatwierdza zmiany
+
+6. Po zatwierdzonej recenzji robisz merge pull request
+
+No i tak to w uproszczeniu działa, kiedy zaczniesz już pracować w jakiejś firmie
+
+Jak sobie odświeżysz PR (pull request) to zobaczysz, że dałem Ci zgodę. Możesz teraz zmergować swoje zmiany i zamknąć ten pull request
+Paweł
+Wtedy main zostanie zaktualizowany
+Paweł
+Gałęzi develop nie usuwaj. Ale czasem będziesz robić tymczasowe gałęzie, które będziesz chciała usunąć po zamknięciu PR
+
+Do zrobienia:
+- rozstawienie aplikacji react z tych komend z zeszytu,
+- zacommitowanie zmian, wypchanie na develop oraz stworzenie kolejnego PR
+- pracować nad zmianami i twórzyć pull requesty, Paweł wszystkie będzie recenzował,

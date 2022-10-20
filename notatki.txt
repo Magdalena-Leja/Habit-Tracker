@@ -1,0 +1,17 @@
+Do końca roku, żeby cokolwiek było wystawione na Heroku. Ale możesz to sobie rozwijać ile tylko chcesz
+
+Zaraz Ci dam początkowe instrukcje
+
+Na początek będziesz musiała stworzyć nowe repozytorium na Github. Możesz se je nazwać np ten Habit Tracker
+
+Potem rozstawisz domyślną/początkową aplikację react, może dodasz tylko nagłówek z nazwą aplikacji.
+
+następnie wyślesz tę aplikację na Github, tak, żebym ja też mógł zobaczyć tę aplikację
+
+następnie stworzysz aplikację na heroku i wyślesz tę aplikację też na heroku, żeby była już gdzieś hostowana na żywo
+
+I to będzie koniec pierwszego etapu produkcji.
+
+Czyli działający, w pełni funkcjonalny szablon aplikacji
+
+Dopiero następnie przejdziesz do drugiego etapu produkcji, czyli już faktycznie programowanie funkcjonalności aplikacji, która ma śledzić postępy użytkownika..

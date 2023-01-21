@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { useState } from "react";
+import DayOfWeek from "./components/DayOfWeek.js";
+
+const daysOfWeek = ["Poniedziałek", "Wtorek", "Środa", "Czwartek", "Piątek"];
+
+const daysOfWeekend = ["Sobota", "Niedziela"];
 
 function App() {
+  const [addWeekend, setAddWeekend] = useState(false);
+  const chosenDays = addWeekend
+    ? [...daysOfWeek, ...daysOfWeekend]
+    : daysOfWeek;
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <button onClick={() => setAddWeekend(!addWeekend)}>
+        dodaj/usuń weekend
+      </button>
+      {chosenDays.map((dayName) => (
+        <DayOfWeek day={dayName} />
+      ))}
     </div>
   );
 }

@@ -38,5 +38,11 @@ Gałęzi develop nie usuwaj. Ale czasem będziesz robić tymczasowe gałęzie, k
 
 Do zrobienia:
 - rozstawienie aplikacji react z tych komend z zeszytu +
-- zacommitowanie zmian, wypchanie na develop oraz stworzenie kolejnego PR
+- zacommitowanie zmian, wypchanie na develop oraz stworzenie kolejnego PR +
 - pracować nad zmianami i twórzyć pull requesty, Paweł wszystkie będzie recenzował.
+
+Podsumowanie 21.01.2023r
+- Wyczyściliśmy domyślny komponent (koło react)
+- Stworzyliśmy nowy komponent funkcyjny DayOfWeek
+- Z pomocą tablicy zamontowaliśmy komponenty DayOfWeek
+- Z pomocą hook useState, ternary operatora oraz przycisku dodaliśmy opcjonalne wyświetlanie dni tygodnia
